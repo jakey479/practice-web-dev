@@ -67,8 +67,7 @@ th {
     z-index: 10;
 }
 
-.display-on-hover{
-    display: block;
+.display-on-hover {
     position: absolute;
     z-index: 20;
     right: 200px;
@@ -80,6 +79,11 @@ th {
     border-radius: 10px;
     padding: 10px;
     overflow: scroll;
+    overflow-x: hidden;
+}
+
+.display-on-hover::-webkit-scrollbar {
+    display: none;
 }
 
 .equal-sign {
